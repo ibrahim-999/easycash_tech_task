@@ -6,6 +6,6 @@ enum DataProviderYStatusEnum: int
 {
     case PAID = 100;
     case PENDING = 200;
-    case REJECT = 333;
+    case REJECT = 300;
 
 }
