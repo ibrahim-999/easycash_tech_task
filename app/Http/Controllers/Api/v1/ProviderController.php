@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Services\TransactionService;
 use Illuminate\Http\Request;
 
-class ProjectController extends Controller
+class ProviderController extends Controller
 {
     private TransactionService $transactionService;
 

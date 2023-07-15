@@ -18,5 +18,5 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix' => 'api/v1'], function () use ($router) {
-    $router->get('transactaions', 'Api\v1\ProjectController@allProviders');
+    $router->get('transactaions', 'Api\v1\ProviderController@allProviders');
 });
